@@ -12,11 +12,7 @@ Repository ini dibuat untuk **tugas perkuliahan, pembelajaran, dan dokumentasi p
 - **Program Studi** : Sistem Informasi  
 - **Repository** : Pemrograman-Mobile  
 - **GitHub** : https://github.com/Ragit09  
-
----
-
-## 🎓 Mata Kuliah
-**Pemrograman Mobile**
+- **Mata Kuliah** : Pemrograman Mobile
 
 ---
 
