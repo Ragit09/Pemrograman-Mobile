@@ -1,0 +1,46 @@
+name: finflow
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # TAMBAHKAN HTTP PACKAGE
+  http: ^1.1.0
+  
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  integration_test:
+    sdk: flutter
+
+# ===== PERBAIKI KONFIGURASI INI =====
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:  # Ubah dari true menjadi Map
+    generate: true
+    image_path: "assets/logo.png"
+    background_color: "#6366F1"
+    theme_color: "#6366F1"
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#6366F1"  # Warna background untuk Android adaptive icon
+  adaptive_icon_foreground: "assets/logo.png"
+  min_sdk_android: 21  # Android 5.0+
+# =====================================
+
+flutter:
+  uses-material-design: true
