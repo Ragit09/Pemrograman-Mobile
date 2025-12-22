@@ -21,6 +21,7 @@ Repository ini dibuat untuk **tugas perkuliahan, pembelajaran, dan dokumentasi p
 ---
 
 ## 📂 Struktur Repository
+```text
 Pemrograman-Mobile/
 ├── Tugas 2_widget_dasar_app
 ├── crud_catatan
@@ -35,6 +36,7 @@ Pemrograman-Mobile/
 ├── todo_list_app
 ├── tugas 1_Profil
 └── README.md
+```
 
 ---
 
